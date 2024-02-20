@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header" data-aos="fade-down">
+
+   <section class="flex">
+
+      <a href="home.jsp" class="logo">Travia.</a>
+
+      <nav class="navbar">
+         <!--<a href="Lflighting.jsp"><i class="fas fa-plane" b style="color:red"></i>Flights</a>-->
+         <!--<a href="Lbusbooking.jsp"><i class="fas fa-bus" b style="color:yellow"></i>Buses</a>-->
+         <!--<a href="Ltrain2.jsp"><i class="fa-solid fa-train" b style="color: greenyellow;"></i>Trains</a>-->
+         <a href="Ltours.html"><i class="fas fa-tree" b style="color:#1ABC9C;"></i>tours</a> 
+         <!--<a href="destinations.html"><i class="fa-solid fa-map-location-dot" b style="color: chocolate;"></i>destinations</a>-->
+         <a href="Labout.html"><i class="fa-solid fa-address-card" b style="color:violet"></i>about</a> 
+         <a href="Lcontact.html"><i class="fa-solid fa-bars" b style="color: goldenrod;"></i>contact</a>
+         <button class="btnLogin-popup"><a href="jsp/login.jsp"><i class="fas fa-user-plus" b style="color:#1ABC9C;"></i>Login Here!!</a> </button>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- contact section starts  -->
+
+<div class="container contact">
+
+   <h1 class="heading" data-aos="zoom-out">contact us</h1>
+
+   <section>
+
+      <div class="row">
+
+         <!--<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15077.086614958938!2d72.83608960687518!3d19.13958260781318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1672939645362!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="flip-left"></iframe>-->
+
+         <form action="" method="post" data-aos="flip-right">
+            <h3>get in touch</h3>
+            <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+            <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+            <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
+            <textarea name="message" class="box" required maxlength="1000" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+         </form>
+
+      </div>
+
+      <div class="grid">
+
+         <div class="box" data-aos="fade-up">
+            <i class="fas fa-phone"></i>
+            <h3>phone number</h3>
+            <a href="tel:1234567890">+91-4336-7890</a>
+            <a href="tel:1112223333">+91-2422-3333</a>
+         </div>
+
+         <div class="box" data-aos="fade-up">
+            <i class="fas fa-envelope"></i>
+            <h3>Email address</h3>
+            <a href="mailto:traviatours@gmail.com">traviatours@gmail.com</a>
+            
+          
+         </div>
+
+         <div class="box" data-aos="fade-up">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Office address</h3>
+            <a href="#">Techno India, TECHNO INDIA : EM-4/1, Sector V, Bidhannagar, Kolkata, West Bengal 700091</a>
+         </div>
+
+      </div>
+
+      <div class="credit">
+         &copy; copyright @ 2023 by <br><span>Rounak Kumar Bag <br>Saikat Adhya <br>Prashant Kumar Sharma <br>Sarandip Mandal <br>Palash Maity <br>Saikat Majumder</span> <br>| all rights reserved! &copy;
+      </div>
+
+   </section>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/train.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.booking-form-box
+{
+    
+       
+    max-width: 350px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+    
+}
+.radio-btn
+{
+    margin: 0 20px;
+
+}
+.radio-btn .btn{
+margin: 20px 10px 20px 0;
+box-shadow: none; 
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #000f;
+    transition: 0.5s;
+}
+.radio-btn span
+{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 12px;
+
+}
+.booking-form
+{
+    padding: 0 20px 20px;
+}
+.booking-form-label
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+input::placeholder
+{
+    color: #fff !important;
+
+}
+.input-grp
+{
+    width: 151px;
+    display: inline-block;
+}
