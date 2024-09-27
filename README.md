@@ -1,5 +1,3 @@
----
-
 # Travia-Tours
 
 **Travia-Tours** is a travel and tourism web application built using J2EE with Glassfish server and JSP for server-side processing. Oracle 21C is used as the database to store tour-related information and manage user data.
