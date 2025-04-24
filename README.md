@@ -24,6 +24,17 @@
 - Eclipse IDE or any other Java IDE
 - Web browser for testing
 
+## Screenshots
+![Screenshot](images/Screenshot%20%28196%29.png)
+![Screenshot](images/Screenshot%20%28200%29.png)
+![Screenshot](images/Screenshot%20%28201%29.png)
+![Screenshot](images/Screenshot%20%28202%29.png)
+![Screenshot](images/Screenshot%20%28203%29.png)
+![Screenshot](images/Screenshot%20%28213%29.png)
+![Screenshot](images/Screenshot%20%28214%29.png)
+![Screenshot](images/Screenshot%20%28215%29.png)
+
+
 ## Setup Instructions
 
 ### 1. Clone the repository
